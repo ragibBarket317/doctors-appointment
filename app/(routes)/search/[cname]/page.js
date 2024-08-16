@@ -1,7 +1,9 @@
-const page = () => {
+import ShowDoctorByCategory from "../_components/ShowDoctorByCategory";
+
+const page = ({ params }) => {
   return (
     <div>
-      <h1>Hello Search</h1>
+      <ShowDoctorByCategory params={params} />
     </div>
   );
 };
